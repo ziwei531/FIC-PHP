@@ -1,0 +1,134 @@
+body {
+    background-image: url("../images/book.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.logo {
+    background-image: url("../images/abc-library-system-logo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 125px;
+    width: 174px;
+    margin: 20px 30px;
+}
+
+.log-in-form {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 350px;
+    height: 420px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px 30px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 29px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0 0 10px;
+    cursor: default;
+}
+
+h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin: 0 0 20px;
+    padding: 0;
+    cursor: default;
+}
+
+.labels {
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.log-in-form input[type="text"] {
+    margin-bottom: 25px;
+}
+
+.log-in-form input[type="text"], input[type="password"] {
+    width: 100%;
+    line-height: 40px;
+    border: none;
+    background-color: transparent;
+    outline: 0;
+    border-bottom: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.log-in-form input[type="text"]:focus, input[type="password"]:focus {
+    border-color:  #C3A6E1;
+}
+
+::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #F0F8FF;
+    font-style: italic;
+}
+
+.log-in-form input[type="submit"] {
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid #FFFFFF;
+    height: 40px;
+    color:#FFFFFF;
+    background-color:transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+.log-in-form input[type="submit"]:hover {
+    cursor: pointer;
+    color: #CC99CC;
+    border: 2px solid #CC99CC;
+}
+
+.log-in-form input[type="submit"]:focus {
+    outline: none;
+}
+
+.log-in-form p {
+    text-align: center;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.log-in-form p:hover {
+    cursor: default;
+}
+
+a.sign-up {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+a.sign-up:hover {
+    text-decoration: underline;
+    color: #CC99CC;
+}
