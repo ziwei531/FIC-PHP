@@ -1,0 +1,88 @@
+body {
+    background-image: url("../images/view.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px; 
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-weight: 700;
+    margin: 0;
+    padding: 20px 0 10px;
+    cursor: default;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px 12px 0 0;
+    overflow: hidden;
+}
+
+tr:nth-child(odd) {
+    background-color: #CCCCCC;
+}
+
+tr:nth-child(even) {
+    background-color: #BFBFBF;
+}
+
+tr:hover{
+    background-color: #DDDDDD;
+}
+
+th {
+    color: #FFFFFF;
+    font-size: 23px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    background-color: #000000;
+    padding: 10px 15px;  
+    cursor: default;
+}
+
+td {
+    color: #777777;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    text-align: center;
+    padding: 8px 10px;
+    cursor: default;
+}
+
+.msg {
+    text-align: center;
+    color: #000000;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 0 0 8px;
+    cursor: default;
+}
+
+.delete {
+    border: none;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+.delete:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+}
